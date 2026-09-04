@@ -132,3 +132,81 @@ body {
     border-color: darkorange;
     background: darkorange;
 }
+@media (max-width: 992px) {
+
+    .navbar {
+        padding: 0 2%;
+    }
+
+    .logo {
+        font-size: 32px;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links li a {
+        font-size: 17px;
+        padding: 8px 10px;
+    }
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        height: auto;
+        min-height: 80px;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px 10px;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 32px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .nav-links li a {
+        font-size: 16px;
+        padding: 7px 10px;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+   ========================= */
+
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 12px 5px;
+        gap: 10px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .nav-links {
+        gap: 5px;
+    }
+
+    .nav-links li a {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+}
